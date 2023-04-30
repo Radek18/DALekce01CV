@@ -65,7 +65,7 @@ SELECT
 	`region_code`,
 	`residence_region_code`
 FROM healthcare_provider hp
-WHERE `region_code`  = `residence_region_code`;
+WHERE `region_code` = `residence_region_code`;
 
 -- Úkol 4:
 
@@ -82,7 +82,7 @@ SELECT
 	`district_code`
 FROM healthcare_provider hp
 WHERE
-	`district_code` = "CZ0201" 
+	`district_code` = 'CZ0201'
 	OR `district_code` = 'CZ0202'
 ORDER BY `district_code`;
 
